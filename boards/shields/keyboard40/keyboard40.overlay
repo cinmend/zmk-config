@@ -1,4 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+
 #include <physical_layouts.dtsi>
 / {
     chosen {
@@ -46,10 +47,10 @@
     };
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
-        display-name = "default_transform";
+        display-name = "default";
 
         kscan = <&kscan0>;
-        transform = <&keymap_transform>;
+        transform = <&default_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
