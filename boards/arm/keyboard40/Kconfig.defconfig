@@ -23,4 +23,3 @@ config BT_CTLR
 
 endif # BT
 
-endif # BOARD_KEYBOARD40
