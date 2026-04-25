@@ -1,9 +1,28 @@
-# This file was generated from a template. Edit it to match your keyboard.
-# See https://docs.zephyrproject.org/4.1.0/hardware/porting/board_porting.html#write-kconfig-files
-# for more information.
+if BOARD_KEYBOARD40
 
+config BOARD
+    default "keyboard40"
 
-if USB
+config ZMK_KEYBOARD_NAME
+    default "keyboard40"
+
+config ARM_MPU
+    default y
+
+config CPU_HAS_MPU
+    default y
+
+config FLASH_MAP
+    default y
+
+config FLASH_PAGE_LAYOUT
+    default y
+
+config SETTINGS_NVS
+    default y
+
+config USB
+    default y
 
 config USB_NRFX
     default y
@@ -11,15 +30,16 @@ config USB_NRFX
 config USB_DEVICE_STACK
     default y
 
-endif # USB
-
 config BT
     default y
-
-if BT
 
 config BT_CTLR
     default y
 
-endif # BT
+config ZMK_BLE
+    default y
 
+config ZMK_USB
+    default y
+
+endif # BOARD_KEYBOARD40
