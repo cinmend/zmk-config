@@ -6,7 +6,6 @@ config BOARD
 config ARM_MPU
     default y
 
-# 修正1: 明确定义USB类型
 config USB
     bool
     default y
@@ -29,7 +28,6 @@ config ZMK_BLE
 config ZMK_USB
     default y
 
-# 修正2: 启用必要的Flash驱动支持
 config FLASH
     default y
     depends on SOC_FLASH_NRF || FLASH_HAS_DRIVER
@@ -46,18 +44,13 @@ config FLASH_PAGE_LAYOUT
 config FLASH_MAP
     default y
 
-# 修正3: 启用nRF52 Flash驱动
-config SOC_FLASH_NRF
-    default y
 
-# 修正4: 确保NVS可运行
 config SETTINGS
     default y
 
 config SETTINGS_NVS
     default y
 
-# 修正5: 修复UART中断驱动依赖
 config SERIAL_SUPPORT_INTERRUPT
     default y
 
