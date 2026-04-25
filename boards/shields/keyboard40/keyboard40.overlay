@@ -6,7 +6,7 @@
         zmk,kscan = &kscan0;
         zmk,matrix-transform = &default_transform;
         
-    }
+    };
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <12>; 
