@@ -4,22 +4,7 @@ if BOARD_KEYBOARD40
 config BOARD
     default "keyboard40"
 
-config ZMK_KEYBOARD_NAME
-    default "keyboard40"
-
 config ARM_MPU
-    default y
-
-config CPU_HAS_MPU
-    default y
-
-config FLASH_MAP
-    default y
-
-config FLASH_PAGE_LAYOUT
-    default y
-
-config SETTINGS_NVS
     default y
 
 config USB
