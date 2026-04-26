@@ -19,7 +19,4 @@
 #
 ---
 include:
-  - board: nice_nano
-    shield: keyboard40
-  - board: keyboard40
-    shield: keyboard40
+  - shield: keyboard40
