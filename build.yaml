@@ -21,4 +21,4 @@
 include:
   - board: nice_nano
     shield: keyboard40
-  - board: X40
+  - board: X40_nrf52840_zmk
