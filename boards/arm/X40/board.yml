@@ -1,0 +1,7 @@
+board:
+  name: X40
+  vendor: Xin
+  socs:
+    - name: nrf52840
+      variants:
+        - name: zmk

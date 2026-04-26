@@ -1,0 +1,13 @@
+file_format: "1"
+id: X40//ZMK
+name: X40
+type: board
+arch: arm
+features:
+  - keys
+  - underglow
+  - studio
+outputs:
+  - usb
+  - ble
+url: https://nicekeyboards.com/nice-60

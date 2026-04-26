@@ -1,0 +1,12 @@
+identifier: X40
+name: X40
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - usb_device
+  - ble
+  - ieee802154
+  - watchdog
