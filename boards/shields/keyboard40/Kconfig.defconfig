@@ -1,7 +1,0 @@
-
-if BOARD_KEYBOARD40
-
-config ZMK_KEYBOARD_NAME
-    default "keyboard40"
-
-endif # BOARD_KEYBOARD40

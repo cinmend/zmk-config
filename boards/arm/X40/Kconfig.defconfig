@@ -4,7 +4,7 @@
 if BOARD_X40
 
 config ZMK_KEYBOARD_NAME
-    default "Xin"
+    default "X"
 
 if USB_DEVICE_STACK
 

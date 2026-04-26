@@ -1,6 +1,6 @@
 board:
   name: X40
-  vendor: Xin
+  vendor: X
   socs:
     - name: nrf52840
       variants:
