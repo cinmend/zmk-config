@@ -10,5 +10,5 @@ url: https://github.com/cinmend/keyboard40
 features:
   - keys
 requires:
-  - pro_micro
+  - nrfmicro/nrf52840
   - nice_nano
