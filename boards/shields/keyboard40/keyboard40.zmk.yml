@@ -12,6 +12,3 @@ features:
 requires:
   - pro_micro
   - nice_nano
-  - bdn9_rev2
-  - reviung41
-  - keyboard40

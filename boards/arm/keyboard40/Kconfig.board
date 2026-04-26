@@ -1,6 +1,0 @@
-config SHIELD_KEYBOARD40
-    bool "keyboard40"
-    select SOC_NRF52840_QIAA
-    select CPU_CORTEX_M4
-    select CPU_HAS_ARM_MPU
-    select CPU_HAS_FPU
