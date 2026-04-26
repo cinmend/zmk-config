@@ -19,4 +19,4 @@
 #
 ---
 include:
-  - board: X40_nrf52840_zmk
+  - board: X40
