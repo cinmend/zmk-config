@@ -1,0 +1,42 @@
+ZMK 键盘布局 - 人类可读按键映射
+==========================================
+
+默认层 (QWERTY)
+-----------------------
+行1: ESC   Q     W     E     R     T     Y     U     I     O     P     BACKSPACE
+行2: TAB   A     S     D     F     G     H     J     K     L     RET
+行3: LSHFT Z     X     C     V     B     N     M     ,     .     /
+行4: LCTRL LGUI  LALT  SPACE SPACE MO(2) MO(1)
+
+数字和字符层
+------------------
+行1: TRANS 1     2     3     4     5     6     7     8     9     0
+行2: TRANS !     @     #     $     %     ^     &     *     (     )
+行3: TRANS [     ]     {     }     -     =     _     +     <     >
+行4: TRANS TRANS TRANS TRANS TRANS TRANS TRANS
+
+FN 层
+--------
+行1: TRANS F1    F2    F3    F4    F5    F6    F7    F8    F9    F10
+行2: TRANS F11   F12   F13   F14   F15   F16   F17   F18   F19   F20
+行3: TRANS LEFT  DOWN  UP    RIGHT VOL_DOWN VOL_UP MUTE  PREV  PLAY  NEXT
+行4: TRANS TRANS TRANS TRANS TRANS TRANS TRANS
+
+
+按键说明:
+- TRANS: 透明按键 (从下层继承)
+- MO(X): 瞬时层切换到层 X
+- LSHFT: 左Shift
+- LCTRL: 左Control
+- LGUI: 左GUI (Windows/Command 键)
+- LALT: 左Alt
+- RET: 回车/Enter
+- BACKSPACE: 退格键
+- TAB: Tab 键
+- SPACE: 空格键
+- LEFT/DOWN/UP/RIGHT: 方向键 (左/下/上/右)
+- VOL_DOWN/VOL_UP: 音量减/加
+- MUTE: 静音
+- PREV/PLAY/NEXT: 上一首/播放/下一首
+- , . / : 逗号, 句号, 正斜杠
+- 数字和符号为标准键盘按键
