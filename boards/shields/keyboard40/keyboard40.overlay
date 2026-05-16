@@ -24,25 +24,25 @@
         wakeup-source;
 
         col-gpios
-            = <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //1
-            , <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //2
-            , <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //3
-            , <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //4
-            , <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //5 
-            , <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //6
-            , <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //7 
-            , <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //8
-            , <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //9
-            , <&gpio0 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //10
-            , <&gpio0 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //11
-            , <&gpio0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //12
+            = <&gpio0 29 (GPIO_ACTIVE_HIGH )> //1
+            , <&gpio0 31 (GPIO_ACTIVE_HIGH)> //2
+            , <&gpio1 6 (GPIO_ACTIVE_HIGH)> //3
+            , <&gpio1 4 (GPIO_ACTIVE_HIGH)> //4
+            , <&gpio0 11 (GPIO_ACTIVE_HIGH )> //5 
+            , <&gpio1 0 (GPIO_ACTIVE_HIGH )> //6
+            , <&gpio0 24 (GPIO_ACTIVE_HIGH )> //7 
+            , <&gpio0 22 (GPIO_ACTIVE_HIGH )> //8
+            , <&gpio0 20 (GPIO_ACTIVE_HIGH )> //9
+            , <&gpio0 17 (GPIO_ACTIVE_HIGH )> //10
+            , <&gpio0 8 (GPIO_ACTIVE_HIGH )> //11
+            , <&gpio0 6 (GPIO_ACTIVE_HIGH )> //12
             ;
 
         row-gpios
-            = <&gpio0 2 GPIO_ACTIVE_HIGH>
-            , <&gpio1 15  GPIO_ACTIVE_HIGH>
-            , <&gpio1 13 GPIO_ACTIVE_HIGH>
-            , <&gpio1 11 GPIO_ACTIVE_HIGH>
+            = <&gpio0 2 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>
+            , <&gpio1 15  GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>
+            , <&gpio1 13 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>
+            , <&gpio1 11 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>
             ;
     };
     physical_layout0: physical_layout_0 {
